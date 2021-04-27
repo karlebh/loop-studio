@@ -5,6 +5,7 @@
             <div class="mx-10 pt-20 flex items-center justify-between text-gray-100">
                 <logo />
                 <svg v-if="isOpen" @click="isOpen = ! isOpen" class="cursor-pointer" width="24" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g></svg>
+                <!-- hello -->
             </div>
 
             <div class="h-full flex flex-wrap content-center justify-center">
