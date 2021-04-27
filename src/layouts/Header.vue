@@ -1,13 +1,14 @@
 <template>
     <header>
+        <!-- Mobile Header -->
         <div class="lg:hidden bg-m-image-hero bg-cover" style="height: 100rem;">
-            <div class="mx-20 pt-20 flex items-baseline justify-between text-gray-100">
+            <div class="mx-10 pt-20 flex items-baseline justify-between text-gray-100">
                 <h1 class="font-bold sm:font-medium text-4xl sm:text-6xl">loopstudios</h1>
                 <svg v-if="isOpen" @click="isOpen = ! isOpen" class="cursor-pointer" width="24" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g></svg>
             </div>
 
             <div class="h-full flex flex-wrap content-center justify-center">
-                <p class="text-gray-100 md:text-8xl sm:text-7xl text-6xl font-light border-4 md:px-20 px-10 md:py-10 py-5">
+                <p class=" text-gray-100 font-light border-4 text-6xl p-5 sm:text-7xl sm:p-12 md:text-8xl md:p-9">
                     IMMERSIVE <br>
                     EXPERIENCES <br>
                     THAT <br>
@@ -31,7 +32,7 @@
 
         </div>
 
-
+        <!-- Desktop Header -->
         <div class="hidden lg:block">
         <!-- Block 1 -->
             <div class="bg-d-hero bg-no-repeat relative" style="height: 40.5rem;">
