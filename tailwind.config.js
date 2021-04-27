@@ -14,6 +14,18 @@ module.exports = {
         'm-curiosity': "url('./helpers/images/mobile/image-curiosity.jpg')",
         'm-fisheye': "url('./helpers/images/mobile/image-fisheye.jpg')",
         'm-grid': "url('./helpers/images/mobile/image-grid.jpg')",
+
+        // Desktop Images
+        // 
+        'd-deep-earth': "url('./helpers/images/desktop/image-deep-earth.jpg')",
+        'd-night-arcade': "url('./helpers/images/desktop/image-night-arcade.jpg')",
+        'd-soccer-team': "url('./helpers/images/desktop/image-soccer-team.jpg')",
+        'd-from-above': "url('./helpers/images/desktop/image-from-above.jpg')",
+        'd-pocket-borealis': "url('./helpers/images/desktop/image-pocket-borealis.jpg')",
+        'd-curiosity': "url('./helpers/images/desktop/image-curiosity.jpg')",
+        'd-fisheye': "url('./helpers/images/desktop/image-fisheye.jpg')",
+        'd-grid': "url('./helpers/images/desktop/image-grid.jpg')",
+
     	})
     },
   },

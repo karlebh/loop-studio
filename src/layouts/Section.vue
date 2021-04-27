@@ -17,51 +17,52 @@
             </div>
 
             <div>
-                 <h1 class="text-6xl text-center font-thin">OUR CREATIONS</h1>
+                 <h1 class="text-6xl text-center font-thin mb-10">OUR CREATIONS</h1>
 
                 <div>
                     <div class="bg-m-deep-earth w-full h-64 bg-no-repeat bg-cover relative">
-                         <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                         <div class="shadow-cover w-full">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">DEEP EARTH</h1>
                         </div>
                     </div>                
                     <div class="bg-m-night-arcade w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">NIGHT ARCADE</h1>
                         </div>
                     </div>                
                     <div class="bg-m-soccer-team w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">SOCCER TEAM VR</h1>
                         </div>
                     </div>                
                     <div class="bg-m-grid w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl"></h1>THE GRID
                         </div>
                     </div>      
 
                     <div class="bg-m-from-above w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">FROM UP ABOVE</h1>
                         </div>
                     </div>                
                     <div class="bg-m-pocket-borealis w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full h-64">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">POCKET BOREALIS</h1>
                         </div>
                     </div>                
                     <div class="bg-m-curiosity w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full h-64">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">THE CURIOSITY</h1>
                         </div>
                     </div>  
 
                     <div class="bg-m-fisheye w-full h-64 bg-no-repeat bg-cover my-14 relative">
-                        <div class="shadow-cover w-full h-64 bg-no-repeat bg-cover my-14 relative">
+                        <div class="shadow-cover w-full h-64">
                             <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">MAKE IT <br> FISHEYE</h1>
                         </div>
-                    </div>                
+                    </div>  
+
                 </div>
 
                 <div class="flex justify-center">
@@ -98,44 +99,52 @@
                 <!-- Gallery -->
                 <div class="grid grid-cols-4 gap-6 my-20">
 
-                    <div class="relative">
-                        <img  src="../helpers/images/desktop/image-deep-earth.jpg" alt="interactive image desktop" style="opacity: 9;">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">DEEP <br> EARTH</p>
+                   <div class="image-height bg-d-deep-earth w-full bg-no-repeat bg-cover relative">
+                         <div class="shadow-cover h-full w-full">
+                            <h1 class="absolute bottom-20 left-10 text-white font-thin text-5xl">DEEP EARTH</h1>
+                        </div>
+                    </div>   
+
+                    <div class="image-height bg-d-night-arcade w-full bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">NIGHT ARCADE</h1>
+                        </div>
+                    </div>       
+
+                    <div class="image-height bg-d-soccer-team w-full h-64 bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">SOCCER <br> TEAM VR</h1>
+                        </div>
+                    </div>     
+                               
+                    <div class="image-height bg-d-grid w-full h-64 bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">THE <br> GRID</h1>
+                        </div>
+                    </div>      
+
+                    <div class="image-height bg-d-from-above w-full h-64 bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">FROM UP <br> ABOVE VR</h1>
+                        </div>
+                    </div>      
+
+                    <div class="image-height bg-d-pocket-borealis w-full h-64 bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">POCKET BOREALIS</h1>
+                        </div>
                     </div>
 
-                    <div class="relative">
-                        <img  src="../helpers/images/desktop/image-night-arcade.jpg" alt="interactive image desktop">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">NIGHT <br> ARCADE</p>
-                    </div>
+                    <div class="image-height bg-d-curiosity w-full h-64 bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">THE CURIOSITY</h1>
+                        </div>
+                    </div>  
 
-                    <div class="relative">
-                        <img src="../helpers/images/desktop/image-soccer-team.jpg" alt="interactive image desktop" style="opacity: 1;">
-                        <p class="absolute bottom-4 text-gray-100 font-thin text-3xl ml-8 mb-4">SOCCER <br> TEAM VR</p>
-                    </div>
-
-                    <div class="relative">
-                        <img  src="../helpers/images/desktop/image-grid.jpg" alt="interactive image desktop">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">THE <br> GRID</p>
-                    </div>
-
-                    <div class="relative">
-                        <img  src="../helpers/images/desktop/image-from-above.jpg" alt="interactive image desktop">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">FROM UP <br> ABOVE VR</p>
-                    </div>
-
-                    <div class="relative">
-                        <img  src="../helpers/images/desktop/image-pocket-borealis.jpg" alt="interactive image desktop">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">POCKET <br> BOREALIS</p>
-                    </div>
-
-                    <div class="relative">
-                        <img  src="../helpers/images/desktop/image-curiosity.jpg" alt="interactive image desktop">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">THE <br> CURIOSITY</p>
-                    </div>
-
-                    <div class="relative">
-                        <img class="grayscale"  src="../helpers/images/desktop/image-fisheye.jpg" alt="interactive image desktop">
-                        <p class="absolute bottom-4 text-white font-thin text-3xl ml-8 mb-4">MAKE IT <br> FISHEYE</p>
+                    <div class="image-height bg-d-fisheye w-full h-64 bg-no-repeat bg-cover relative">
+                        <div class="shadow-cover w-full h-full">
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">MAKE IT <br> FISHEYE</h1>
+                        </div>
                     </div>
                 </div>
 
@@ -152,6 +161,10 @@
 
     .shadow-cover {
         background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    .image-height {
+        height: 30rem;
     }
 </style>
