@@ -5,7 +5,7 @@
             <img class="mx-auto" src="../helpers/images/mobile/image-interactive.jpg" alt="interactive image mobile">
 
             <div class="mt-20 mb-32">
-                <h1 class="mb-6 text-6xl text-center font-thin">THE LEADER IN <br> INTERACTIVE VR</h1>
+                <h1 class="mb-6 text-xl sm:text-3xl md:text-6xl text-center font-thin">THE LEADER IN <br> INTERACTIVE VR</h1>
 
                 <P class="text-justify px-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Rerum alias dolorum atque amet ullam culpa sed laudantium! Expedita cum dolorem, 
@@ -17,7 +17,7 @@
             </div>
 
             <div>
-                 <h1 class="text-6xl text-center font-thin mb-10">OUR CREATIONS</h1>
+                 <h1 class="text-xl sm:text-3xl md:text-6xl text-center font-thin mb-10">OUR CREATIONS</h1>
 
                 <div>
                     <div class="bg-m-deep-earth w-full h-64 bg-no-repeat bg-cover relative">
@@ -37,7 +37,7 @@
                     </div>                
                     <div class="bg-m-grid w-full h-64 bg-no-repeat bg-cover my-14 relative">
                         <div class="shadow-cover w-full">
-                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl"></h1>THE GRID
+                            <h1 class="absolute bottom-16 left-10 text-white font-thin text-5xl">THE GRID</h1>
                         </div>
                     </div>      
 
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="flex justify-center">
-                    <button class="tracking-very-wide text-xl font-bold border-4 border-gray-900 px-20 py-5">SEE ALL</button>
+                    <button class="tracking-very-wide text-xl font-bold border-4 border-gray-900 p-5 sm:px-20 sm:py-5">SEE ALL</button>
                 </div>
 
             </div>
