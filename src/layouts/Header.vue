@@ -1,20 +1,22 @@
 <template>
     <header>
         <!-- Mobile Header -->
-        <div class="lg:hidden bg-m-image-hero bg-cover" style="height: 100rem;">
+        <div class="lg:hidden bg-m-image-hero bg-cover" style="height: 50rem;">
             <div class="mx-5 pt-20 flex items-center justify-between text-gray-100">
                 <logo />
                 <svg v-if="isOpen" @click="isOpen = ! isOpen" class="cursor-pointer" width="24" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g></svg>
                 <!-- hello -->
             </div>
-
-            <div class="h-full flex flex-wrap content-center justify-center">
-                <p class="text-gray-100 font-light border-4 text-5xl sm:text-4xl md:text-6xl p-5 sm:text-7xl sm:p-10 md:text-8xl md:p-9">
+            
+            <div class="image-hero mt-36">
+                <p 
+                class="text-gray-100 font-light border-1 text-5xl border-4 border-gray-50 p-3 sm:p-5 sm:text-8xl md:p-5 md:font-thin">
                     IMMERSIVE <br>
                     EXPERIENCES <br>
                     THAT <br>
                     DELEIVER <br>
                 </p>
+                
             </div>
 
             <!-- Nav Menu -->
@@ -70,6 +72,13 @@
 <style scoped>
     .svg {
         background-size: 4px;
+    }
+
+    .image-hero {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 </style>
 
