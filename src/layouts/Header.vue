@@ -22,7 +22,7 @@
             <!-- Nav Menu -->
             <nav v-if="!isOpen" 
             class="px-10 bg-black h-full fixed right-0 left-0 bottom-0 top-0 text-white">
-                <div class="mr-10 pt-20 flex items-center justify-between text-gray-100">
+                <div class="mr-5 pt-20 flex items-center justify-between text-gray-100">
                     <logo />
                     <svg @click="isOpen = ! isOpen" class="cursor-pointer" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" fill="#FFF" fill-rule="evenodd"/></svg>
 
